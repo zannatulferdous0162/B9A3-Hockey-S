@@ -30,6 +30,7 @@
           "bg-red": '#FF4240',
            "text-red": '#FF4240',
            "text-gray": '#424247',
+           "color-black": '#131318',
         }
       }
     }
@@ -45,7 +46,7 @@
 </head>
 <body class="font-manrope">
     <header class="md:container md:mx-auto">
-        <div class="navbar bg-base-100 mt-12 px-30">
+        <div class="navbar  mt-12 px-30">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -79,6 +80,57 @@
             </div>
           </div>
     </header>
+
+    <main>
+    
+     <section class="md:container md:mx-auto ">
+      <div class="carousel w-full mt-2 mb-8 relative">
+        <div id="slide1" class="carousel-item relative w-full px-18  py-10">
+          <img src="./Images/1.png" class="" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="./Images/banner2.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img  src="./Images/1.png" class="" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+      </div>
+
+      <!-- text section -->
+      <div class="bg-color-black  lg:w-[520px] h-36 rounded-2xl px-6 absolute  left- -top-9  z-10 " >
+        <h3 class="text-white font-extrabold text-2xl px-4 py-4 mt-8   ">Meet all the heroes from the field</h3>
+        <p class="text-[#ffffff99] font-medium ">
+          Meet all the heroes from the field, individuals whose unwavering dedication and exceptional skills shine brightly, shaping the future of their respective domains.
+        </p>
+      </div>
+     </section>
+
+      <!-- Professional Hockeys Club -->
+      <section class="mt-12">
+        <div class="md:container md:mx-auto">
+          <h3>Professional Hockeys Club</h3>
+          <P>"Our hockey club excels through unified teamwork, strategic prowess, and unwavering dedication, continually advancing towards success on the ice."</P>
+
+          <!-- Redial progress -->
+          <div>
+            <div class="radial-progress text-primary" style="--value:70;" role="progressbar">70%</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
     
 </body>
 </html>
