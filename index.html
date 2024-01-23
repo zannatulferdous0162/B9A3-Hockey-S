@@ -4,46 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Tailwind and Daisyul CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awsome kit link -->
+
+    <script src="https://kit.fontawesome.com/bc2c224793.js" crossorigin="anonymous"></script>
+
+
+
+  <!-- Google Font Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+<!-- Custom CSs Link -->
+
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          clifford: '#da373d',
+          "bg-red": '#FF4240',
+           "text-red": '#FF4240',
+           "text-gray": '#424247',
+        }
+      }
+    }
+  }
+</script>
+
+<style>
+  .font-manrope{
+      font-family: "Manrope", sans-serif;
+  }
+</style>
+
 </head>
-<body>
-    <header>
-        <div class="navbar bg-base-100">
+<body class="font-manrope">
+    <header class="md:container md:mx-auto">
+        <div class="navbar bg-base-100 mt-12 px-30">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </div>
                 <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Item 1</a></li>
-                  <li>
-                    <a>Parent</a>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </li>
-                  <li><a>Item 3</a></li>
+                  <ul class="menu menu-horizontal px-1 text-text-gray">
+                    <li><a class="text-text-red">Home</a> </li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                  
                 </ul>
               </div>
-              <a class="btn btn-ghost text-xl">daisyUI</a>
+              <h1 class=" text-2xl lg:text-4xl	font-extrabold">Hockey<span class="text-text-red ">’</span>s</h1>
+              <!-- <a class="btn btn-ghost text-xl">Hockey<span class="text-text-red">’</span>s</a> -->
             </div>
             <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a>Item 1</a></li>
-                <li>
-                  <details>
-                    <summary>Parent</summary>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </details>
-                </li>
-                <li><a>Item 3</a></li>
+              <ul class="menu menu-horizontal px-1 text-text-gray">
+                <li><a class="text-text-red">Home</a> </li>
+                <li><a>About</a></li>
+                <li><a>Pages</a></li>
+                <li><a>Blog</a></li>
+                <li><a>Contact</a></li>
               </ul>
             </div>
-            <div class="navbar-end">
-              <a class="btn">Button</a>
+            <div class="navbar-end space-x-4">
+              <i class="fa-solid fa-magnifying-glass text-text-gray"></i>
+              <a class="btn bg-bg-red text-white lg:text-xl  h-6 lg:h-14 lg:w-36	">Get Ticket</a>
             </div>
           </div>
     </header>
