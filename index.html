@@ -45,28 +45,27 @@
 </style>
 
 </head>
-<body class="font-manrope">
-    <header class="md:container md:mx-auto">
-        <div class="navbar  mt-12 px-30">
-            <div class="navbar-start">
+<body class="font-manrope ">
+    <header class="container mx-auto">
+      <nav>
+        <div class="navbar bg-base-100 sm:mt-6 lg:mt-12">
+            <div class="flex-1">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <ul class="menu menu-horizontal px-1 text-text-gray">
-                    <li><a class="text-text-red">Home</a> </li>
-                    <li><a>About</a></li>
-                    <li><a>Pages</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>Contact</a></li>
-                  
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52  text-base">
+                  <li><a class="text-text-red">Home</a> </li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>contact</a></li>
                 </ul>
               </div>
               <h1 class=" text-2xl lg:text-4xl	font-extrabold">Hockey<span class="text-text-red ">’</span>s</h1>
             </div>
             <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1 text-text-gray">
+              <ul class="menu menu-horizontal px-1 text-base">
                 <li><a class="text-text-red">Home</a> </li>
                 <li><a>About</a></li>
                 <li><a>Pages</a></li>
@@ -74,32 +73,33 @@
                 <li><a>Contact</a></li>
               </ul>
             </div>
-            <div class="navbar-end space-x-4">
+            <div class="navbar-end lg:space-x-4">
               <i class="fa-solid fa-magnifying-glass text-text-gray"></i>
-              <a class="btn bg-bg-red text-white lg:text-xl  h-6 lg:h-14 lg:w-36	">Get Ticket</a>
+              <a class="btn bg-bg-red text-white sm:w-20 sm:h-6 lg:text-xl lg:h-14 lg:w-36">Get Ticket</a>
             </div>
           </div>
+    </nav>
     </header>
+    <!-- Header End Here -->
 
     <main>
-    
-     <section class="md:container md:mx-auto  mb-12">
+     <section class="container mx-auto sm:mt-2 lg:mb-12  ">
       <div class="carousel w-full mt-2 mb-8 relative z-10">
-        <div id="slide1" class="carousel-item relative w-full px-18  py-10">
+        <div id="slide1" class="carousel-item relative w-full sm:mr-3 sm:ml-3">
           <img src="./Images/1.png" class="" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4" class="btn btn-circle">❮</a> 
             <a href="#slide2" class="btn btn-circle">❯</a>
           </div>
         </div> 
-        <div id="slide2" class="carousel-item relative w-full">
+        <div id="slide2" class="carousel-item relative w-full sm:mr-3 sm:ml-3">
           <img src="./Images/banner2.jpg" class="w-full" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" class="btn btn-circle">❮</a> 
             <a href="#slide3" class="btn btn-circle">❯</a>
           </div>
         </div> 
-        <div id="slide3" class="carousel-item relative w-full">
+        <div id="slide3" class="carousel-item relative w-full sm:mr-3 sm:ml-3">
           <img  src="./Images/1.png" class="" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" class="btn btn-circle">❮</a> 
@@ -109,20 +109,22 @@
       </div>
 
       <!-- text section -->
-      <div class="   bg-color-black  mb-12  lg:w-[530px]  rounded-2xl  lg:absolute sm:relative sm:flex sm:flex-col sm:mt-2  z-20 lg:bottom-0 lg:right-40  " >
+      <div class="bg-color-black lg:mb-12 mr-3 ml-3  lg:w-[530px]  rounded-2xl  lg:absolute sm:relative sm:flex sm:flex-col  z-20 lg:bottom-0 lg:right-40  " >
         <div class="lg:text-center  px-4 py-6">
           <h3 class="text-white  font-extrabold text-2xl ">Meet all the heroes from the field</h3>
-        <p class="text-[#ffffff99] font-medium  ">
-          Meet all the heroes from the field, individuals  whose unwavering dedication and  exceptional skills  shine brightly, shaping the future of their respective domains.
+        <p class="text-[#ffffff99] font-medium">
+          Meet all the heroes from the field, individuals  whose unwavering dedication and  exceptional skills  sne brightly, shaping the future of their respective domains.
         </p>
         </div>
       </div>
      </section>
 
+     <hr class="lg:mb-12 sm:mb-8">
+
       <!-- Professional Hockeys Club -->
-      <section class="md:container md:mx-auto  text-center ">
-        <div class=" space-y-4 lg:mt-12 sm:mt-6 ">
-          <h3 class="text-4xl font-extrabold">Professional Hockeys Club</h3>
+      <section class="md:container md:mx-auto lg:mt-12 sm:8 text-center">
+        <div class=" space-y-4  ">
+          <h3 class="lg:text-4xl  lg:font-extrabold  text-black">Professional Hockeys Club</h3>
           <P class="text-text-gray">"Our hockey club excels through unified teamwork, strategic prowess, and unwavering dedication, <br>
             continually advancing towards success on the ice."</P>
 
@@ -187,12 +189,12 @@
             <figure>
               <img src="./Images/2.png" alt="" />
             </figure>
-            <div class="card-body text-white text-start mt-24 mr-10 ml-9 mb-10">
+            <div class="card-body text-wte text-start mt-24 mr-10 ml-9 mb-10">
               <h2 class="card-title font-extrabold text-2xl">Junior Program</h2>
               <p class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
                 enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
               <div class="card-actions  ">
-                <button class="btn bg-bg-red  text-white">Register Now!</button>
+                <button class="btn bg-bg-red  text-wte">Register Now!</button>
               </div>
             </div>
           </div>
@@ -201,12 +203,12 @@
             <figure>
               <img src="./Images/3.png" alt="" />
             </figure>
-            <div class="card-body text-white text-start mt-24 mr-10 ml-9 mb-10">
+            <div class="card-body text-wte text-start mt-24 mr-10 ml-9 mb-10">
               <h2 class="card-title font-extrabold text-2xl">Junior Program</h2>
               <p class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
                 enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
               <div class="card-actions  ">
-                <button class="btn bg-bg-red text-white">Register Now!</button>
+                <button class="btn bg-bg-red text-wte">Register Now!</button>
               </div>
             </div>
           </div>
@@ -218,12 +220,12 @@
           <figure>
             <img class="" src="./Images/4.png" alt="" />
           </figure>
-          <div class="card-body lg:w-3/6 text-white text-start justify-center mt-24 mr-10 ml-9 mb-10">
+          <div class="card-body lg:w-3/6 text-wte text-start justify-center mt-24 mr-10 ml-9 mb-10">
             <h2 class=" font-extrabold text-2xl">Junior Program</h2>
             <p class="font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
               enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
             <div class="card-actions  ">
-              <button class="btn bg-bg-red text-white">Register Now!</button>
+              <button class="btn bg-bg-red text-wte">Register Now!</button>
             </div>
           </div>
         </div>
@@ -231,7 +233,7 @@
         <hr>
       </section>
       <!--  -->
-      <section class="container mx-auto mt-12 ">
+      <section class="container mx-auto mt-12  ">
         <!-- Our New Products -->
         <div class=" space-y-4 lg:mt-12 sm:mt-6 sm:px-20 gap-5  ">
           <div class=" space-y-4 lg:mt-12 sm:mt-6 text-center ">
@@ -380,7 +382,7 @@
       </section>
 
       <!--  -->
-      <section class="md:container md:mx-auto  text-center mt-12 ">
+      <section class="md:container md:mx-auto  text-center mt-12  ">
         <!-- Clients Question -->
         <div class=" space-y-4 lg:mt-12 sm:mt-6 sm:px-20 gap-5 ">
           <div class=" space-y-4 lg:mt-12 sm:mt-6 ">
@@ -464,7 +466,7 @@
       <hr class="mt-12">
 
       <!-- Get In Touch -->
-      <section class="md:container md:mx-auto  text-center mt-12  ">
+      <section class="md:container md:mx-auto  text-center mt-12   ">
         <!-- text -->
        
           <h3 class="text-4xl font-extrabold">Clients Question</h3>
@@ -532,7 +534,7 @@
                 <!--  -->
                  <div class="p-8">
                   <input type="text" class=" lg:w-[600px] lg:h-[300px]   bg-[#13131805] border	">
-                  <button class="btn bg-text-red rounded-xl lg:w-[600px]   mt-4 text-white">Send Message</button>
+                  <button class="btn bg-text-red rounded-xl lg:w-[600px]   mt-4 text-wte">Send Message</button>
                  </div>
                 </div>          
             </form>
@@ -555,10 +557,10 @@
       <hr class="mt-12">
     </main>
 
-    <footer class="footer  p-10 bg-black text-white text-base-content">
+    <footer class="footer  p-10 bg-black text-wte text-base-content ">
       <div class="ml-10">
         <h2 class="font-extrabold text-2xl">Get In Touch</h2>
-        <p class="font-medium text-[#FFFFFF99] ">Chittagong,<br>South Halishohor </p>
+        <p class="font-medium text-[#FFFFFF99] ">Cttagong,<br>South Halishohor </p>
         <div class="flex space-x-2">
           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" class="inline">
             <path  d="M21.75 6.75V17.25C21.75 17.8467 21.5129 18.419 21.091 18.841C20.669 19.2629 20.0967 19.5 19.5 19.5H4.5C3.90326 19.5 3.33097 19.2629 2.90901 18.841C2.48705 18.419 2.25 17.8467 2.25 17.25V6.75M21.75 6.75C21.75 6.15326 21.5129 5.58097 21.091 5.15901C20.669 4.73705 20.0967 4.5 19.5 4.5H4.5C3.90326 4.5 3.33097 4.73705 2.90901 5.15901C2.48705 5.58097 2.25 6.15326 2.25 6.75M21.75 6.75V6.993C21.75 7.37715 21.6517 7.75491 21.4644 8.0903C21.2771 8.42569 21.0071 8.70754 20.68 8.909L13.18 13.524C12.8252 13.7425 12.4167 13.8582 12 13.8582C11.5833 13.8582 11.1748 13.7425 10.82 13.524L3.32 8.91C2.99292 8.70854 2.72287 8.42669 2.53557 8.0913C2.34827 7.75591 2.24996 7.37815 2.25 6.994V6.75" stroke="#FF4240" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -577,9 +579,9 @@
       </div>
       
       <nav>
-        <header class=" text-white font-bold">Services</header> 
+        <header class=" text-wte font-bold">Services</header> 
         <a class="link link-hover font-medium text-[#FFFFFF99]"> About us</a>
-        <a class="link link-hover font-medium text-[#FFFFFF99]"> Leadership</a>
+        <a class="link link-hover font-medium text-[#FFFFFF99]"> Leadersp</a>
         <a class="link link-hover font-medium text-[#FFFFFF99]"> Careers</a>
         <a class="link link-hover font-medium text-[#FFFFFF99]">News & Article</a>
         <a class="link link-hover font-medium text-[#FFFFFF99]">Legal Notice</a>
@@ -589,7 +591,7 @@
 
 
       <nav>
-        <header class=" text-white font-bold">Support</header> 
+        <header class=" text-wte font-bold">Support</header> 
         <a class="link link-hover font-medium text-[#FFFFFF99]"> Help Center</a>
         <a class="link link-hover font-medium text-[#FFFFFF99]"> FAQ</a>
         <a class="link link-hover font-medium text-[#FFFFFF99]">Ticket Support</a>
@@ -600,7 +602,7 @@
 
 
       <nav>
-         <header class=" text-white font-bold">Services</header> 
+         <header class=" text-wte font-bold">Services</header> 
         <a class="link link-hover font-medium text-[#FFFFFF99]"> Academy</a>
         <a class="link link-hover font-medium text-[#FFFFFF99]">Group Lesson</a>
         <a class="link link-hover font-medium text-[#FFFFFF99]">Private Lesson</a>
