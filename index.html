@@ -48,13 +48,13 @@
 <body class="font-manrope ">
     <header class="container mx-auto">
       <nav>
-        <div class="navbar bg-base-100 sm:mt-6 lg:mt-12">
+        <div class="navbar bg-base-100 sm:mt-6 lg:mt-12 z-10">
             <div class="flex-1">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52  text-base">
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52  text-base ">
                   <li><a class="text-text-red">Home</a> </li>
                   <li><a>About</a></li>
                   <li><a>Pages</a></li>
@@ -64,7 +64,7 @@
               </div>
               <h1 class=" text-2xl lg:text-4xl	font-extrabold">Hockey<span class="text-text-red ">’</span>s</h1>
             </div>
-            <div class="navbar-center hidden lg:flex">
+            <div class="navbar-center hidden lg:flex justify-center items-center text-center">
               <ul class="menu menu-horizontal px-1 text-base">
                 <li><a class="text-text-red">Home</a> </li>
                 <li><a>About</a></li>
@@ -187,7 +187,7 @@
           <div class="card   shadow-xl image-full flex-1  ">
             <!-- 1st -->
             <figure>
-              <img src="./Images/2.png" alt="" />
+              <img  src="./Images/2.png" alt="" />
             </figure>
             <div class="card-body text-white text-start mt-24 mr-10 ml-9 mb-10">
               <h2 class="card-title font-extrabold text-2xl">Junior Program</h2>
@@ -218,7 +218,7 @@
         <div class="card mx-auto  shadow-xl image-full  ">
           <!-- 3st -->
           <figure>
-            <img class="" src="./Images/4.png" alt="" />
+            <img  src="./Images/4.png" alt="" />
           </figure>
           <div class="card-body lg:w-3/6 text-white text-start justify-center mt-24 mr-10 ml-9 mb-10">
             <h2 class=" font-extrabold text-2xl">Junior Program</h2>
@@ -393,11 +393,11 @@
               <!-- IMG container -->
 
               <div class="card lg:card-side bg-base-100 border ">
-                <div class="flex-1 py-8 ml-4">
-                  <img src="./Images/11.png" alt="Album"/>
+                <div class=" py-8 ml-4 flex flex-col items-center">
+                  <img class="max-w-[80%]" src="./Images/11.png" alt="Album"/>
                 </div>
                 
-                <div class="card-body flex-1 text-start">
+                <div class="card-body  text-start">
                   <!-- 1 -->
                   <div class="collapse collapse-plus bg-base-200 ">
                     <input type="radio" name="my-accordion-3" checked="checked" /> 
@@ -473,12 +473,12 @@
 
          <P class="text-text-gray mt-5 p-4">"Our hockey club excels through unified   teamwork, strategic prowess, and unwavering dedication, <br>
           continually advancing towards success on the ice."</P>
-        <div class="space-y-6 mt-12 grid grid-cols-2  ">
-          <div class="w-[470px] flex-1 p-4 relative space-y-4">
+        <div class="space-y-6 mt-12 lg:flex  items-center   ">
+          <div class="flex-1 p-4 relative space-y-4">
             <!-- 1stdiv -->
            <div class="card  bg-[#BCED6D1A]"> 
             <div class="card-body text-start">
-              <div>
+              <div >
                 <img src="./Images/phn.png" alt="">
               </div>
               <h2 class="">Phone Number : </h2>
@@ -510,9 +510,11 @@
           <!-- input text -->
           <div class=" relative flex-1 text-start">
             <form action=" " >
-              <div class="grid lg:grid-cols-2 lg:grid-rows-2 rounded-xl sm:grid-cols-1 sm:grid-rows-1 " >
-                <!-- 1 -->
-                <div class="mx-auto space-y-3 mb-8">
+              <div class="flex flex-col items-center " >
+               <div class="grid lg:grid-cols-2">
+
+                 <!-- 1 -->
+                 <div class="mx-auto space-y-3 mb-8">
                   <h2 class="text-[#131318] font-bold text-xl ">Your Name</h2>
                  <input type="text" placeholder="Enter your full name" class="input  max-w-xs bg-[#13131805]  border" />
                 </div>
@@ -531,10 +533,12 @@
                   <h2 class="text-[#131318] font-bold text-xl ">Phone Number</h2>
                  <input type="text" placeholder="Enter your phone number" class="input   max-w-xs bg-[#13131805] border" />
                 </div>
+
+               </div>
                 <!--  -->
-                 <div class="p-8">
-                  <input type="text" class=" lg:w-[600px] lg:h-[300px]   bg-[#13131805] border	">
-                  <button class="btn bg-text-red rounded-xl lg:w-[600px]   mt-4 text-white">Send Message</button>
+                 <div class="p-8 ">
+                  <input type="text" class=" lg:w-[600px] lg:h-[300px] md:w-[200px] md:h-[200px] sm:w-[200px] sm:h-[200px] w-[300px] h-[300px] block  bg-[#13131805] border	">
+                  <button class="btn w-full bg-text-red rounded-xl   mt-4 text-white">Send Message</button>
                  </div>
                 </div>          
             </form>
